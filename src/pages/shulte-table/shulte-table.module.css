@@ -1,0 +1,12 @@
+.item {
+  @apply p-3 text-2xl text-center border cursor-pointer select-none active:bg-blue-50;
+}
+
+.current {
+  @apply active:bg-green-50;
+}
+
+.repeat {
+  @apply px-4 py-2 bg-blue-700 text-white rounded active:bg-blue-800 w-full mt-3 disabled:bg-blue-400;
+}
+
