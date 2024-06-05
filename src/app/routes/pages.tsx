@@ -1,6 +1,7 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { AppLayout, GameLayout } from "@/app//layouts";
 import { ShulteTablePage } from "@/pages/shulte-table";
+import { MathPage } from "@/pages/math";
 
 const router = createBrowserRouter([
 	{
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
 					{
 						path: 'shulte',
 						element: <ShulteTablePage />
+					},
+					{
+						path: 'math',
+						element: <MathPage />
 					}
 				]
 			}

@@ -1,0 +1,4 @@
+.main {
+  @apply grid grid-flow-col gap-x-3;
+  grid-template-rows: repeat(calc(90/5), minmax(0, 1fr));
+}
